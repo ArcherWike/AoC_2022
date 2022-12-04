@@ -1,4 +1,4 @@
-ReadFile = open("./Input.txt", 'r')
+ReadFile = open("./message.txt", 'r')
 resultCollection = []
 result = 0
 
@@ -15,9 +15,14 @@ for line in ReadFile:
         if row[index] not in n:
             n.append(row[index])
 
+    k = len(m)
     for x in m:
         if x in n:
             resultCollection.append(x)
+        k -= 1
+    if k > 0:
+        print("LUIL")
+
 
 for x in resultCollection:
     asciii = ord(x)
