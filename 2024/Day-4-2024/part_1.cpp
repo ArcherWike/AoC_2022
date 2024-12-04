@@ -1,5 +1,5 @@
 //--- Day 4: Ceres Search ---
-//Part 4 / 04.12.2024 / Advent of Code
+//Part 1 / 04.12.2024 / Advent of Code
 #include <iostream>
 #include <fstream>
 #include <string>
